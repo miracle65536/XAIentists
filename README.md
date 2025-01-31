@@ -1,2 +1,2 @@
-# Super-Scientists
+# XAIentists
 ExAI
