@@ -1,0 +1,9 @@
+k,completeness,common_features,model_only,explainer_only,explainer
+5,0.4,"{'custody_length_of_stay', 'is_recid'}","{'sex', 'priors_count', 'juv_other_count'}","{'juv_fel_count', 'c_charge_degree', 'c_charge_desc'}",LIME
+10,0.8,"{'sex', 'juv_fel_count', 'c_charge_desc', 'is_recid', 'c_charge_degree', 'age_cat', 'custody_length_of_stay', 'juv_other_count'}","{'c_length_of_stay', 'priors_count'}","{'is_violent_recid', 'juv_misd_count'}",LIME
+15,0.6666666666666666,"{'sex', 'juv_fel_count', 'c_charge_desc', 'is_recid', 'c_charge_degree', 'is_violent_recid', 'juv_misd_count', 'age_cat', 'custody_length_of_stay', 'juv_other_count'}","{'c_length_of_stay', 'priors_count', 'race'}",set(),LIME
+20,0.5,"{'sex', 'juv_fel_count', 'c_charge_desc', 'is_recid', 'c_charge_degree', 'is_violent_recid', 'juv_misd_count', 'age_cat', 'custody_length_of_stay', 'juv_other_count'}","{'c_length_of_stay', 'priors_count', 'race'}",set(),LIME
+5,0.6,"{'priors_count', 'custody_length_of_stay', 'is_recid'}","{'sex', 'juv_other_count'}","{'c_charge_degree', 'c_charge_desc'}",SHAP
+10,0.9,"{'sex', 'priors_count', 'juv_fel_count', 'c_charge_desc', 'is_recid', 'c_charge_degree', 'c_length_of_stay', 'custody_length_of_stay', 'juv_other_count'}",{'age_cat'},{'race'},SHAP
+15,0.8666666666666667,"{'sex', 'priors_count', 'juv_fel_count', 'c_charge_desc', 'is_recid', 'c_charge_degree', 'race', 'c_length_of_stay', 'is_violent_recid', 'juv_misd_count', 'age_cat', 'custody_length_of_stay', 'juv_other_count'}",set(),set(),SHAP
+20,0.65,"{'sex', 'priors_count', 'juv_fel_count', 'c_charge_desc', 'is_recid', 'c_charge_degree', 'race', 'c_length_of_stay', 'is_violent_recid', 'juv_misd_count', 'age_cat', 'custody_length_of_stay', 'juv_other_count'}",set(),set(),SHAP
